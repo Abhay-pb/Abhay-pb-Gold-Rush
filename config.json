@@ -1,0 +1,43 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Gold Rush",
+	"namespace": "pb",
+	"authors": [
+		"Pesky Birds Studio"
+	],
+	"targetVersion": "1.21.20",
+	"description": "Coming Soon",
+	"experimentalGameplay": {
+		"creationOfCustomBiomes": false,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": false,
+		"educationEdition": false
+	},
+	"bdsProject": true,
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Gold Rush"
+				}
+			]
+		]
+	}
+}

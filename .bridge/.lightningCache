@@ -1,0 +1,43 @@
+$formatVersion: 1
+#manifest
+projects/Gold Rush/BP/manifest.json|1725624627
+#unknown
+projects/Gold Rush/BP/pack_icon.png|1725624627
+projects/Gold Rush/RP/pack_icon.png|1725624627
+#clientSound
+projects/Gold Rush/RP/sounds.json|1725624627
+#clientBlock
+projects/Gold Rush/RP/blocks.json|1725624627|{"identifier":[]}
+#clientManifest
+projects/Gold Rush/RP/manifest.json|1725624627|{"uuid":["8b28f359-00cd-41d8-8bc7-a3fb9031c827"]}
+#langDef
+projects/Gold Rush/RP/texts/languages.json|1725624627
+#clientLang
+projects/Gold Rush/RP/texts/en_US.lang|1725627190|{"actionText":[]}
+#soundDefinition
+projects/Gold Rush/RP/sounds/sound_definitions.json|1725624627|{"identifier":[]}
+#itemTexture
+projects/Gold Rush/RP/textures/item_texture.json|1725624676|{"texture":["pb_golden_egg"],"texturePath":["projects/Gold Rush/RP/textures/items/egg.png"]}
+#terrainTexture
+projects/Gold Rush/RP/textures/terrain_texture.json|1725624627|{"texture":[]}
+#customCommand
+#mcstructure
+#customComponent
+#item
+projects/Gold Rush/BP/items/golden_egg.json|1725624845|{"identifier":["pb:golden_egg"],"tag":[]}
+#texture
+projects/Gold Rush/RP/textures/items/egg.png|1725624676
+projects/Gold Rush/RP/textures/entity/1211.png|1725627190
+#bridgeConfig
+#recipe
+projects/Gold Rush/BP/recipes/furnace/golden_egg_to_ingot.json|1725625449|{"identifier":["pb:golden_egg_to_ingot"],"recipeTag":["furnace","blast_furnace"],"itemIdentifier":["pb:golden_egg","minecraft:gold_ingot"]}
+#lootTable
+projects/Gold Rush/BP/loot_tables/entities/piglin_barter.json|1724861890|{"lootTablePath":[]}
+#entity
+projects/Gold Rush/BP/entities/piglin.json|1724861890|{"identifier":["minecraft:piglin"],"event":["minecraft:entity_spawned","minecraft:entity_born","spawn_adult_no_hunting","spawn_adult","spawn_adult_ranged","spawn_adult_ranged_no_hunting","spawn_adult_melee","spawn_adult_melee_no_hunting","spawn_baby","stop_zombification_event","start_zombification_event","become_angry_event","become_calm_event","attack_cooldown_complete_event","become_zombie_event","important_block_destroyed_event","admire_item_started_event","admire_item_stopped_event"],"eventReference":["admire_item_started_event","admire_item_stopped_event","become_calm_event","attack_cooldown_complete_event","start_zombification_event","stop_zombification_event","become_angry_event","become_zombie_event"],"componentGroup":["zombification_sensor","start_zombification","become_zombie","ranged_unit","melee_unit","angry","attack_cooldown","piglin_baby","piglin_adult","interactable_piglin","hunter","not_hunter","alert_for_attack_targets","take_target_as_response_to_block_break","piglin_jockey"],"family":["piglin","piglin_hunter","monster"],"lootTablePath":["projects/Gold Rush/BP/loot_tables/entities/piglin.json","projects/Gold Rush/BP/loot_tables/entities/piglin_barter.json"]}
+#clientEntity
+projects/Gold Rush/RP/entity/1211.json|1725627190|{"identifier":["pb:1211"],"textureReference":["default"],"materialReference":["default"],"geometryReference":["default"],"materialIdentifier":["entity_alphatest"],"geometryIdentifier":["geometry.1211"],"renderControllerIdentifier":["controller.render.1211"],"texturePath":["projects/Gold Rush/RP/textures/entity/1211.png"]}
+#geometry
+projects/Gold Rush/RP/models/entity/1211.json|1725627190|{"identifier":["geometry.1211"],"bone":["bone"]}
+#renderController
+projects/Gold Rush/RP/render_controllers/1211.json|1725627190|{"identifier":["controller.render.1211"]}

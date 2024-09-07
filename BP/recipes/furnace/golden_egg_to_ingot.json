@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "pb:golden_egg_to_ingot"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "pb:golden_egg",
+		"output": "minecraft:gold_ingot"
+	}
+}

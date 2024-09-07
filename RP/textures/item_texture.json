@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "Gold Rush",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"pb_golden_egg": {
+			"textures": "textures/items/egg"
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Pesky Birds Studio"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.36"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "Gold Rush",
+		"description": "Coming Soon",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "8b28f359-00cd-41d8-8bc7-a3fb9031c827",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "f3085be8-468a-4953-9d1b-54ace5a89187",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "9c5abfb8-a9f9-41b2-b8d7-1b28ded36035",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
